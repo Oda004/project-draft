@@ -59,11 +59,11 @@ class Rumus : public Welcome{
 					cout << "               Bilangan = "; cin >> bil2;
 					hsl = bil1 - bil2;				
 				}
-				else if(oper == 'x'){
+				else if(oper == 'x' || '*'){
 					cout << "               Bilangan = "; cin >> bil2;
 					hsl = bil1 * bil2;				
 				}
-				else if(oper == ':'){
+				else if(oper == ':' || '/'){
 					cout << "               Bilangan = "; cin >> bil2;
 					hsl = bil1 / bil2;			
 				}
